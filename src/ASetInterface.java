@@ -1,4 +1,3 @@
-
 public interface ASetInterface {
 	public void rajouteDansA(){
 		
