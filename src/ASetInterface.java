@@ -1,6 +1,6 @@
 public interface ASetInterface {
-	public void rajouteDansA();
+	public void rajouteDansA(Vertex Y);
 	
-	public boolean estDansA();
+	public boolean estDansA(Vertex Y);
 		
 }
