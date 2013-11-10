@@ -6,15 +6,15 @@ public class ASet implements ASetInterface {
 	public ASet() {
 		vertexList = new ArrayList<Vertex>();
 	}
-	public boolean estDansA(){
+	public boolean estDansA(Vertex Y){
 		for (Vertex X : vertexList) {
-			if (this.equalsTo(X)==true) return true;
+			if (X.equalsTo(Y)==true) return true;
 		}
 		return false;
 	}
 		
-public void rajouteDansA(){
-	vertexList.add(Vertex this.Vertex);
+public void rajouteDansA(Vertex Y){
+	vertexList.add(Y);
 		
 	}
 		
