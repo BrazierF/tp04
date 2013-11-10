@@ -1,9 +1,6 @@
 public interface ASetInterface {
-	public void rajouteDansA(){
-		
-	}
+	public void rajouteDansA();
 	
-	public boolean estDansA(){
+	public boolean estDansA();
 		
-	}
 }
